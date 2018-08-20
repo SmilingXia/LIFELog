@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162F68E42127E76700C0713F /* XLLAVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 162F68E32127E76700C0713F /* XLLAVAudioPlayer.m */; };
+		162F68E72127E81E00C0713F /* XLLPlayerRecordingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 162F68E62127E81E00C0713F /* XLLPlayerRecordingViewModel.m */; };
+		164573FC2126615700601814 /* XLLRecordingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 164573FB2126615700601814 /* XLLRecordingModel.m */; };
+		164574002126AA8600601814 /* XLLVoiceViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 164573FE2126AA8600601814 /* XLLVoiceViewCell.m */; };
+		164574012126AA8600601814 /* XLLVoiceViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 164573FF2126AA8600601814 /* XLLVoiceViewCell.xib */; };
+		164574042126C69A00601814 /* XLLPlayRecordingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 164574032126C69A00601814 /* XLLPlayRecordingVC.m */; };
+		164574072126C7C600601814 /* XLLPlayRecordingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 164574062126C7C600601814 /* XLLPlayRecordingView.m */; };
+		164574092126C7D700601814 /* XLLPlayRecordingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 164574082126C7D700601814 /* XLLPlayRecordingView.xib */; };
+		16735EDB2123D578001ECB53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16735EDA2123D578001ECB53 /* Assets.xcassets */; };
+		16735EDE2123D578001ECB53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16735EDC2123D578001ECB53 /* LaunchScreen.storyboard */; };
+		16735EE12123D578001ECB53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16735EE02123D578001ECB53 /* main.m */; };
+		16735EEB2123D578001ECB53 /* LIFELogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16735EEA2123D578001ECB53 /* LIFELogTests.m */; };
+		16735EF62123D578001ECB53 /* LIFELogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16735EF52123D578001ECB53 /* LIFELogUITests.m */; };
+		16735F072123DA62001ECB53 /* XLLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16735F062123DA62001ECB53 /* XLLAppDelegate.m */; };
+		16735F0C2123DB09001ECB53 /* XLLHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 16735F0B2123DB08001ECB53 /* XLLHomeVC.m */; };
+		16735F102123DCB9001ECB53 /* XLLBaseNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 16735F0F2123DCB9001ECB53 /* XLLBaseNC.m */; };
+		16735F132123DCF4001ECB53 /* XLLBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 16735F122123DCF4001ECB53 /* XLLBaseVC.m */; };
+		16735F172123F4FE001ECB53 /* XLLHomeItemViewXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 16735F162123F4FE001ECB53 /* XLLHomeItemViewXib.m */; };
+		16735F192123F512001ECB53 /* XLLHomeItemViewXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16735F182123F512001ECB53 /* XLLHomeItemViewXib.xib */; };
+		16735F1D2123FE1D001ECB53 /* XLLHomeItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16735F1C2123FE1D001ECB53 /* XLLHomeItemModel.m */; };
+		16735F2921240DF1001ECB53 /* XLLHomeItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16735F2821240DF1001ECB53 /* XLLHomeItemCell.m */; };
+		16735F2C2124191A001ECB53 /* HomeCellModel.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16735F2B2124191A001ECB53 /* HomeCellModel.plist */; };
+		16735F5E2124237C001ECB53 /* XLLHomeCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16735F5D2124237C001ECB53 /* XLLHomeCellModel.m */; };
+		16735F6221242488001ECB53 /* XLLHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16735F6121242488001ECB53 /* XLLHomeViewModel.m */; };
+		1673600821250223001ECB53 /* timg-14.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16735FF121250223001ECB53 /* timg-14.jpeg */; };
+		1673600921250223001ECB53 /* timg-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16735FF221250223001ECB53 /* timg-1.jpeg */; };
+		1673600A21250223001ECB53 /* timg-22.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16735FF321250223001ECB53 /* timg-22.jpeg */; };
+		1673600B21250223001ECB53 /* timg-18.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16735FF421250223001ECB53 /* timg-18.jpeg */; };
+		1673600C21250223001ECB53 /* timg-19.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16735FF521250223001ECB53 /* timg-19.jpeg */; };
+		1673600D21250223001ECB53 /* timg-0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16735FF621250223001ECB53 /* timg-0.jpeg */; };
+		1673600E21250223001ECB53 /* timg-15.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16735FF721250223001ECB53 /* timg-15.jpeg */; };
+		1673600F21250223001ECB53 /* timg-12.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16735FF821250223001ECB53 /* timg-12.jpeg */; };
+		1673601021250223001ECB53 /* timg-7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16735FF921250223001ECB53 /* timg-7.jpeg */; };
+		1673601121250223001ECB53 /* timg-6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16735FFA21250223001ECB53 /* timg-6.jpeg */; };
+		1673601221250223001ECB53 /* timg-13.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16735FFB21250223001ECB53 /* timg-13.jpeg */; };
+		1673601321250223001ECB53 /* timg-9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16735FFC21250223001ECB53 /* timg-9.jpeg */; };
+		1673601421250223001ECB53 /* timg-5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16735FFD21250223001ECB53 /* timg-5.jpeg */; };
+		1673601521250223001ECB53 /* timg-10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16735FFE21250223001ECB53 /* timg-10.jpeg */; };
+		1673601621250223001ECB53 /* timg-11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 16735FFF21250223001ECB53 /* timg-11.jpeg */; };
+		1673601721250223001ECB53 /* timg-4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1673600021250223001ECB53 /* timg-4.jpeg */; };
+		1673601821250223001ECB53 /* timg-8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1673600121250223001ECB53 /* timg-8.jpeg */; };
+		1673601921250223001ECB53 /* timg-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1673600221250223001ECB53 /* timg-3.jpeg */; };
+		1673601A21250223001ECB53 /* timg-16.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1673600321250223001ECB53 /* timg-16.jpeg */; };
+		1673601B21250223001ECB53 /* timg-20.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1673600421250223001ECB53 /* timg-20.jpeg */; };
+		1673601C21250223001ECB53 /* timg-21.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1673600521250223001ECB53 /* timg-21.jpeg */; };
+		1673601D21250223001ECB53 /* timg-17.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1673600621250223001ECB53 /* timg-17.jpeg */; };
+		1673601E21250223001ECB53 /* timg-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1673600721250223001ECB53 /* timg-2.jpeg */; };
+		1673602121250722001ECB53 /* XLLVoiceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1673602021250722001ECB53 /* XLLVoiceVC.m */; };
+		1673602421250763001ECB53 /* XLLVoiceCollectionViewXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1673602321250763001ECB53 /* XLLVoiceCollectionViewXib.m */; };
+		1673602621250775001ECB53 /* XLLVoiceCollectionViewXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1673602521250775001ECB53 /* XLLVoiceCollectionViewXib.xib */; };
+		1673602A21254E87001ECB53 /* XLLRecording.m in Sources */ = {isa = PBXBuildFile; fileRef = 1673602921254E87001ECB53 /* XLLRecording.m */; };
+		167360312125539F001ECB53 /* XLLManageCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 167360302125539F001ECB53 /* XLLManageCenter.m */; };
+		1673603421255492001ECB53 /* XLLFilePathManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1673603321255492001ECB53 /* XLLFilePathManage.m */; };
+		167360382125694A001ECB53 /* XLLVoiceViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 167360372125694A001ECB53 /* XLLVoiceViewModel.m */; };
+		1673603B21256FD1001ECB53 /* XLLEntryRecorDingInfoViewXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1673603A21256FD1001ECB53 /* XLLEntryRecorDingInfoViewXib.m */; };
+		1673603D21256FF6001ECB53 /* XLLEntryRecorDingInfoViewXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1673603C21256FF6001ECB53 /* XLLEntryRecorDingInfoViewXib.xib */; };
+		16736040212576DA001ECB53 /* XLLBaseVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 1673603F212576DA001ECB53 /* XLLBaseVM.m */; };
+		16736046212586AA001ECB53 /* XLLBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16736045212586AA001ECB53 /* XLLBaseView.m */; };
+		DA9E5B58321AE55B6219F4B5 /* Pods_LIFELog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF501734C9E5D92EC46B80A /* Pods_LIFELog.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16735EE72123D578001ECB53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16735EC62123D576001ECB53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16735ECD2123D576001ECB53;
+			remoteInfo = LIFELog;
+		};
+		16735EF22123D578001ECB53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16735EC62123D576001ECB53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16735ECD2123D576001ECB53;
+			remoteInfo = LIFELog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		162F68E22127E76700C0713F /* XLLAVAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLAVAudioPlayer.h; sourceTree = "<group>"; };
+		162F68E32127E76700C0713F /* XLLAVAudioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLAVAudioPlayer.m; sourceTree = "<group>"; };
+		162F68E52127E81E00C0713F /* XLLPlayerRecordingViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLPlayerRecordingViewModel.h; sourceTree = "<group>"; };
+		162F68E62127E81E00C0713F /* XLLPlayerRecordingViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLPlayerRecordingViewModel.m; sourceTree = "<group>"; };
+		164573FA2126615700601814 /* XLLRecordingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLRecordingModel.h; sourceTree = "<group>"; };
+		164573FB2126615700601814 /* XLLRecordingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLRecordingModel.m; sourceTree = "<group>"; };
+		164573FD2126AA8600601814 /* XLLVoiceViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLVoiceViewCell.h; sourceTree = "<group>"; };
+		164573FE2126AA8600601814 /* XLLVoiceViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLVoiceViewCell.m; sourceTree = "<group>"; };
+		164573FF2126AA8600601814 /* XLLVoiceViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLLVoiceViewCell.xib; sourceTree = "<group>"; };
+		164574022126C69A00601814 /* XLLPlayRecordingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLPlayRecordingVC.h; sourceTree = "<group>"; };
+		164574032126C69A00601814 /* XLLPlayRecordingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLPlayRecordingVC.m; sourceTree = "<group>"; };
+		164574052126C7C600601814 /* XLLPlayRecordingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLPlayRecordingView.h; sourceTree = "<group>"; };
+		164574062126C7C600601814 /* XLLPlayRecordingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLPlayRecordingView.m; sourceTree = "<group>"; };
+		164574082126C7D700601814 /* XLLPlayRecordingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLLPlayRecordingView.xib; sourceTree = "<group>"; };
+		16735ECE2123D576001ECB53 /* LIFELog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LIFELog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16735EDA2123D578001ECB53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16735EDD2123D578001ECB53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16735EDF2123D578001ECB53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16735EE02123D578001ECB53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16735EE62123D578001ECB53 /* LIFELogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIFELogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16735EEA2123D578001ECB53 /* LIFELogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIFELogTests.m; sourceTree = "<group>"; };
+		16735EEC2123D578001ECB53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16735EF12123D578001ECB53 /* LIFELogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LIFELogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16735EF52123D578001ECB53 /* LIFELogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIFELogUITests.m; sourceTree = "<group>"; };
+		16735EF72123D578001ECB53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16735F052123DA62001ECB53 /* XLLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLAppDelegate.h; sourceTree = "<group>"; };
+		16735F062123DA62001ECB53 /* XLLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLAppDelegate.m; sourceTree = "<group>"; };
+		16735F0A2123DB08001ECB53 /* XLLHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLHomeVC.h; sourceTree = "<group>"; };
+		16735F0B2123DB08001ECB53 /* XLLHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLHomeVC.m; sourceTree = "<group>"; };
+		16735F0E2123DCB9001ECB53 /* XLLBaseNC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLBaseNC.h; sourceTree = "<group>"; };
+		16735F0F2123DCB9001ECB53 /* XLLBaseNC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLBaseNC.m; sourceTree = "<group>"; };
+		16735F112123DCF4001ECB53 /* XLLBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLBaseVC.h; sourceTree = "<group>"; };
+		16735F122123DCF4001ECB53 /* XLLBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLBaseVC.m; sourceTree = "<group>"; };
+		16735F152123F4FE001ECB53 /* XLLHomeItemViewXib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLHomeItemViewXib.h; sourceTree = "<group>"; };
+		16735F162123F4FE001ECB53 /* XLLHomeItemViewXib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLHomeItemViewXib.m; sourceTree = "<group>"; };
+		16735F182123F512001ECB53 /* XLLHomeItemViewXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLLHomeItemViewXib.xib; sourceTree = "<group>"; };
+		16735F1B2123FE1D001ECB53 /* XLLHomeItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLHomeItemModel.h; sourceTree = "<group>"; };
+		16735F1C2123FE1D001ECB53 /* XLLHomeItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLHomeItemModel.m; sourceTree = "<group>"; };
+		16735F20212401A0001ECB53 /* XLL_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLL_PrefixHeader.pch; sourceTree = "<group>"; };
+		16735F2621240C8A001ECB53 /* XLLMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLMacro.h; sourceTree = "<group>"; };
+		16735F2721240DF1001ECB53 /* XLLHomeItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLHomeItemCell.h; sourceTree = "<group>"; };
+		16735F2821240DF1001ECB53 /* XLLHomeItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLHomeItemCell.m; sourceTree = "<group>"; };
+		16735F2B2124191A001ECB53 /* HomeCellModel.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HomeCellModel.plist; sourceTree = "<group>"; };
+		16735F5C2124237C001ECB53 /* XLLHomeCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLHomeCellModel.h; sourceTree = "<group>"; };
+		16735F5D2124237C001ECB53 /* XLLHomeCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLHomeCellModel.m; sourceTree = "<group>"; };
+		16735F6021242488001ECB53 /* XLLHomeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLHomeViewModel.h; sourceTree = "<group>"; };
+		16735F6121242488001ECB53 /* XLLHomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLHomeViewModel.m; sourceTree = "<group>"; };
+		16735FF121250223001ECB53 /* timg-14.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-14.jpeg"; sourceTree = "<group>"; };
+		16735FF221250223001ECB53 /* timg-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-1.jpeg"; sourceTree = "<group>"; };
+		16735FF321250223001ECB53 /* timg-22.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-22.jpeg"; sourceTree = "<group>"; };
+		16735FF421250223001ECB53 /* timg-18.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-18.jpeg"; sourceTree = "<group>"; };
+		16735FF521250223001ECB53 /* timg-19.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-19.jpeg"; sourceTree = "<group>"; };
+		16735FF621250223001ECB53 /* timg-0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-0.jpeg"; sourceTree = "<group>"; };
+		16735FF721250223001ECB53 /* timg-15.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-15.jpeg"; sourceTree = "<group>"; };
+		16735FF821250223001ECB53 /* timg-12.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-12.jpeg"; sourceTree = "<group>"; };
+		16735FF921250223001ECB53 /* timg-7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-7.jpeg"; sourceTree = "<group>"; };
+		16735FFA21250223001ECB53 /* timg-6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-6.jpeg"; sourceTree = "<group>"; };
+		16735FFB21250223001ECB53 /* timg-13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-13.jpeg"; sourceTree = "<group>"; };
+		16735FFC21250223001ECB53 /* timg-9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-9.jpeg"; sourceTree = "<group>"; };
+		16735FFD21250223001ECB53 /* timg-5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-5.jpeg"; sourceTree = "<group>"; };
+		16735FFE21250223001ECB53 /* timg-10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-10.jpeg"; sourceTree = "<group>"; };
+		16735FFF21250223001ECB53 /* timg-11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-11.jpeg"; sourceTree = "<group>"; };
+		1673600021250223001ECB53 /* timg-4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-4.jpeg"; sourceTree = "<group>"; };
+		1673600121250223001ECB53 /* timg-8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-8.jpeg"; sourceTree = "<group>"; };
+		1673600221250223001ECB53 /* timg-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-3.jpeg"; sourceTree = "<group>"; };
+		1673600321250223001ECB53 /* timg-16.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-16.jpeg"; sourceTree = "<group>"; };
+		1673600421250223001ECB53 /* timg-20.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-20.jpeg"; sourceTree = "<group>"; };
+		1673600521250223001ECB53 /* timg-21.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-21.jpeg"; sourceTree = "<group>"; };
+		1673600621250223001ECB53 /* timg-17.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-17.jpeg"; sourceTree = "<group>"; };
+		1673600721250223001ECB53 /* timg-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-2.jpeg"; sourceTree = "<group>"; };
+		1673601F21250722001ECB53 /* XLLVoiceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLVoiceVC.h; sourceTree = "<group>"; };
+		1673602021250722001ECB53 /* XLLVoiceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLVoiceVC.m; sourceTree = "<group>"; };
+		1673602221250763001ECB53 /* XLLVoiceCollectionViewXib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLVoiceCollectionViewXib.h; sourceTree = "<group>"; };
+		1673602321250763001ECB53 /* XLLVoiceCollectionViewXib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLVoiceCollectionViewXib.m; sourceTree = "<group>"; };
+		1673602521250775001ECB53 /* XLLVoiceCollectionViewXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLLVoiceCollectionViewXib.xib; sourceTree = "<group>"; };
+		1673602821254E87001ECB53 /* XLLRecording.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLRecording.h; sourceTree = "<group>"; };
+		1673602921254E87001ECB53 /* XLLRecording.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLRecording.m; sourceTree = "<group>"; };
+		1673602F2125539F001ECB53 /* XLLManageCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLManageCenter.h; sourceTree = "<group>"; };
+		167360302125539F001ECB53 /* XLLManageCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLManageCenter.m; sourceTree = "<group>"; };
+		1673603221255492001ECB53 /* XLLFilePathManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLFilePathManage.h; sourceTree = "<group>"; };
+		1673603321255492001ECB53 /* XLLFilePathManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLFilePathManage.m; sourceTree = "<group>"; };
+		1673603521255CE0001ECB53 /* XLLConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLConstant.h; sourceTree = "<group>"; };
+		167360362125694A001ECB53 /* XLLVoiceViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLVoiceViewModel.h; sourceTree = "<group>"; };
+		167360372125694A001ECB53 /* XLLVoiceViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLVoiceViewModel.m; sourceTree = "<group>"; };
+		1673603921256FD1001ECB53 /* XLLEntryRecorDingInfoViewXib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLEntryRecorDingInfoViewXib.h; sourceTree = "<group>"; };
+		1673603A21256FD1001ECB53 /* XLLEntryRecorDingInfoViewXib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLEntryRecorDingInfoViewXib.m; sourceTree = "<group>"; };
+		1673603C21256FF6001ECB53 /* XLLEntryRecorDingInfoViewXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLLEntryRecorDingInfoViewXib.xib; sourceTree = "<group>"; };
+		1673603E212576DA001ECB53 /* XLLBaseVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLBaseVM.h; sourceTree = "<group>"; };
+		1673603F212576DA001ECB53 /* XLLBaseVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLBaseVM.m; sourceTree = "<group>"; };
+		16736043212577FD001ECB53 /* XLLViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLViewModelProtocol.h; sourceTree = "<group>"; };
+		16736044212586AA001ECB53 /* XLLBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLBaseView.h; sourceTree = "<group>"; };
+		16736045212586AA001ECB53 /* XLLBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLBaseView.m; sourceTree = "<group>"; };
+		2CF501734C9E5D92EC46B80A /* Pods_LIFELog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LIFELog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2D6BFBBF6CA2D99D3744E5 /* Pods-LIFELog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIFELog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LIFELog/Pods-LIFELog.debug.xcconfig"; sourceTree = "<group>"; };
+		FAFD20FEAD84567AE57FFACE /* Pods-LIFELog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LIFELog.release.xcconfig"; path = "Pods/Target Support Files/Pods-LIFELog/Pods-LIFELog.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16735ECB2123D576001ECB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9E5B58321AE55B6219F4B5 /* Pods_LIFELog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16735EE32123D578001ECB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16735EEE2123D578001ECB53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16735EC52123D576001ECB53 = {
+			isa = PBXGroup;
+			children = (
+				16735ED02123D576001ECB53 /* LIFELog */,
+				16735EE92123D578001ECB53 /* LIFELogTests */,
+				16735EF42123D578001ECB53 /* LIFELogUITests */,
+				16735ECF2123D576001ECB53 /* Products */,
+				B62AE7568331A716CE953CA9 /* Pods */,
+				958407BBF3C4D0D89F7F74A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16735ECF2123D576001ECB53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16735ECE2123D576001ECB53 /* LIFELog.app */,
+				16735EE62123D578001ECB53 /* LIFELogTests.xctest */,
+				16735EF12123D578001ECB53 /* LIFELogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16735ED02123D576001ECB53 /* LIFELog */ = {
+			isa = PBXGroup;
+			children = (
+				16735F1E21240120001ECB53 /* Utils */,
+				16735F032123D960001ECB53 /* Class */,
+				16735F052123DA62001ECB53 /* XLLAppDelegate.h */,
+				16735F062123DA62001ECB53 /* XLLAppDelegate.m */,
+				16735EDA2123D578001ECB53 /* Assets.xcassets */,
+				16735F042123DA0D001ECB53 /* Supporting Files */,
+			);
+			path = LIFELog;
+			sourceTree = "<group>";
+		};
+		16735EE92123D578001ECB53 /* LIFELogTests */ = {
+			isa = PBXGroup;
+			children = (
+				16735EEA2123D578001ECB53 /* LIFELogTests.m */,
+				16735EEC2123D578001ECB53 /* Info.plist */,
+			);
+			path = LIFELogTests;
+			sourceTree = "<group>";
+		};
+		16735EF42123D578001ECB53 /* LIFELogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16735EF52123D578001ECB53 /* LIFELogUITests.m */,
+				16735EF72123D578001ECB53 /* Info.plist */,
+			);
+			path = LIFELogUITests;
+			sourceTree = "<group>";
+		};
+		16735F032123D960001ECB53 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				16735F0D2123DC43001ECB53 /* BaseClass */,
+				16735F082123DAD0001ECB53 /* Home */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		16735F042123DA0D001ECB53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16735FF021250223001ECB53 /* myImage */,
+				16735F2A212418FD001ECB53 /* XLLPlistFile */,
+				16735EDC2123D578001ECB53 /* LaunchScreen.storyboard */,
+				16735EDF2123D578001ECB53 /* Info.plist */,
+				16735EE02123D578001ECB53 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16735F082123DAD0001ECB53 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				16735F5F21242477001ECB53 /* ViewModel */,
+				16735F1A2123FDF8001ECB53 /* Model */,
+				16735F142123F40F001ECB53 /* View */,
+				16735F092123DAE4001ECB53 /* ViewControll */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		16735F092123DAE4001ECB53 /* ViewControll */ = {
+			isa = PBXGroup;
+			children = (
+				16735F0A2123DB08001ECB53 /* XLLHomeVC.h */,
+				16735F0B2123DB08001ECB53 /* XLLHomeVC.m */,
+				1673601F21250722001ECB53 /* XLLVoiceVC.h */,
+				1673602021250722001ECB53 /* XLLVoiceVC.m */,
+				164574022126C69A00601814 /* XLLPlayRecordingVC.h */,
+				164574032126C69A00601814 /* XLLPlayRecordingVC.m */,
+			);
+			path = ViewControll;
+			sourceTree = "<group>";
+		};
+		16735F0D2123DC43001ECB53 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				16735F0E2123DCB9001ECB53 /* XLLBaseNC.h */,
+				16735F0F2123DCB9001ECB53 /* XLLBaseNC.m */,
+				16735F112123DCF4001ECB53 /* XLLBaseVC.h */,
+				16735F122123DCF4001ECB53 /* XLLBaseVC.m */,
+				1673603E212576DA001ECB53 /* XLLBaseVM.h */,
+				1673603F212576DA001ECB53 /* XLLBaseVM.m */,
+				16736044212586AA001ECB53 /* XLLBaseView.h */,
+				16736045212586AA001ECB53 /* XLLBaseView.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		16735F142123F40F001ECB53 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16735F2721240DF1001ECB53 /* XLLHomeItemCell.h */,
+				16735F2821240DF1001ECB53 /* XLLHomeItemCell.m */,
+				16735F152123F4FE001ECB53 /* XLLHomeItemViewXib.h */,
+				16735F162123F4FE001ECB53 /* XLLHomeItemViewXib.m */,
+				16735F182123F512001ECB53 /* XLLHomeItemViewXib.xib */,
+				1673602221250763001ECB53 /* XLLVoiceCollectionViewXib.h */,
+				1673602321250763001ECB53 /* XLLVoiceCollectionViewXib.m */,
+				1673602521250775001ECB53 /* XLLVoiceCollectionViewXib.xib */,
+				1673603921256FD1001ECB53 /* XLLEntryRecorDingInfoViewXib.h */,
+				1673603A21256FD1001ECB53 /* XLLEntryRecorDingInfoViewXib.m */,
+				1673603C21256FF6001ECB53 /* XLLEntryRecorDingInfoViewXib.xib */,
+				164573FD2126AA8600601814 /* XLLVoiceViewCell.h */,
+				164573FE2126AA8600601814 /* XLLVoiceViewCell.m */,
+				164573FF2126AA8600601814 /* XLLVoiceViewCell.xib */,
+				164574052126C7C600601814 /* XLLPlayRecordingView.h */,
+				164574062126C7C600601814 /* XLLPlayRecordingView.m */,
+				164574082126C7D700601814 /* XLLPlayRecordingView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16735F1A2123FDF8001ECB53 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16735F1B2123FE1D001ECB53 /* XLLHomeItemModel.h */,
+				16735F1C2123FE1D001ECB53 /* XLLHomeItemModel.m */,
+				16735F5C2124237C001ECB53 /* XLLHomeCellModel.h */,
+				16735F5D2124237C001ECB53 /* XLLHomeCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16735F1E21240120001ECB53 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1673602721254E64001ECB53 /* Recording(录音) */,
+				1673602B21255344001ECB53 /* Common */,
+				16736041212576F4001ECB53 /* Delegate */,
+				16735F1F21240130001ECB53 /* Config */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		16735F1F21240130001ECB53 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				16735F20212401A0001ECB53 /* XLL_PrefixHeader.pch */,
+				16735F2621240C8A001ECB53 /* XLLMacro.h */,
+				1673603521255CE0001ECB53 /* XLLConstant.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		16735F2A212418FD001ECB53 /* XLLPlistFile */ = {
+			isa = PBXGroup;
+			children = (
+				16735F2B2124191A001ECB53 /* HomeCellModel.plist */,
+			);
+			path = XLLPlistFile;
+			sourceTree = "<group>";
+		};
+		16735F5F21242477001ECB53 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				16735F6021242488001ECB53 /* XLLHomeViewModel.h */,
+				16735F6121242488001ECB53 /* XLLHomeViewModel.m */,
+				167360362125694A001ECB53 /* XLLVoiceViewModel.h */,
+				167360372125694A001ECB53 /* XLLVoiceViewModel.m */,
+				162F68E52127E81E00C0713F /* XLLPlayerRecordingViewModel.h */,
+				162F68E62127E81E00C0713F /* XLLPlayerRecordingViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		16735FF021250223001ECB53 /* myImage */ = {
+			isa = PBXGroup;
+			children = (
+				16735FF121250223001ECB53 /* timg-14.jpeg */,
+				16735FF221250223001ECB53 /* timg-1.jpeg */,
+				16735FF321250223001ECB53 /* timg-22.jpeg */,
+				16735FF421250223001ECB53 /* timg-18.jpeg */,
+				16735FF521250223001ECB53 /* timg-19.jpeg */,
+				16735FF621250223001ECB53 /* timg-0.jpeg */,
+				16735FF721250223001ECB53 /* timg-15.jpeg */,
+				16735FF821250223001ECB53 /* timg-12.jpeg */,
+				16735FF921250223001ECB53 /* timg-7.jpeg */,
+				16735FFA21250223001ECB53 /* timg-6.jpeg */,
+				16735FFB21250223001ECB53 /* timg-13.jpeg */,
+				16735FFC21250223001ECB53 /* timg-9.jpeg */,
+				16735FFD21250223001ECB53 /* timg-5.jpeg */,
+				16735FFE21250223001ECB53 /* timg-10.jpeg */,
+				16735FFF21250223001ECB53 /* timg-11.jpeg */,
+				1673600021250223001ECB53 /* timg-4.jpeg */,
+				1673600121250223001ECB53 /* timg-8.jpeg */,
+				1673600221250223001ECB53 /* timg-3.jpeg */,
+				1673600321250223001ECB53 /* timg-16.jpeg */,
+				1673600421250223001ECB53 /* timg-20.jpeg */,
+				1673600521250223001ECB53 /* timg-21.jpeg */,
+				1673600621250223001ECB53 /* timg-17.jpeg */,
+				1673600721250223001ECB53 /* timg-2.jpeg */,
+			);
+			path = myImage;
+			sourceTree = "<group>";
+		};
+		1673602721254E64001ECB53 /* Recording(录音) */ = {
+			isa = PBXGroup;
+			children = (
+				1673602821254E87001ECB53 /* XLLRecording.h */,
+				1673602921254E87001ECB53 /* XLLRecording.m */,
+				164573FA2126615700601814 /* XLLRecordingModel.h */,
+				164573FB2126615700601814 /* XLLRecordingModel.m */,
+				162F68E22127E76700C0713F /* XLLAVAudioPlayer.h */,
+				162F68E32127E76700C0713F /* XLLAVAudioPlayer.m */,
+			);
+			path = "Recording(录音)";
+			sourceTree = "<group>";
+		};
+		1673602B21255344001ECB53 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1673602F2125539F001ECB53 /* XLLManageCenter.h */,
+				167360302125539F001ECB53 /* XLLManageCenter.m */,
+				1673603221255492001ECB53 /* XLLFilePathManage.h */,
+				1673603321255492001ECB53 /* XLLFilePathManage.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		16736041212576F4001ECB53 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				16736043212577FD001ECB53 /* XLLViewModelProtocol.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		958407BBF3C4D0D89F7F74A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CF501734C9E5D92EC46B80A /* Pods_LIFELog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B62AE7568331A716CE953CA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D2D6BFBBF6CA2D99D3744E5 /* Pods-LIFELog.debug.xcconfig */,
+				FAFD20FEAD84567AE57FFACE /* Pods-LIFELog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16735ECD2123D576001ECB53 /* LIFELog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16735EFA2123D578001ECB53 /* Build configuration list for PBXNativeTarget "LIFELog" */;
+			buildPhases = (
+				897004A1781B0BFA9DF80A8B /* [CP] Check Pods Manifest.lock */,
+				16735ECA2123D576001ECB53 /* Sources */,
+				16735ECB2123D576001ECB53 /* Frameworks */,
+				16735ECC2123D576001ECB53 /* Resources */,
+				98FF99EEBF8CB8BCA7006297 /* [CP] Embed Pods Frameworks */,
+				D95EA165A2C25765B9283CCB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LIFELog;
+			productName = LIFELog;
+			productReference = 16735ECE2123D576001ECB53 /* LIFELog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16735EE52123D578001ECB53 /* LIFELogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16735EFD2123D578001ECB53 /* Build configuration list for PBXNativeTarget "LIFELogTests" */;
+			buildPhases = (
+				16735EE22123D578001ECB53 /* Sources */,
+				16735EE32123D578001ECB53 /* Frameworks */,
+				16735EE42123D578001ECB53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16735EE82123D578001ECB53 /* PBXTargetDependency */,
+			);
+			name = LIFELogTests;
+			productName = LIFELogTests;
+			productReference = 16735EE62123D578001ECB53 /* LIFELogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16735EF02123D578001ECB53 /* LIFELogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16735F002123D578001ECB53 /* Build configuration list for PBXNativeTarget "LIFELogUITests" */;
+			buildPhases = (
+				16735EED2123D578001ECB53 /* Sources */,
+				16735EEE2123D578001ECB53 /* Frameworks */,
+				16735EEF2123D578001ECB53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16735EF32123D578001ECB53 /* PBXTargetDependency */,
+			);
+			name = LIFELogUITests;
+			productName = LIFELogUITests;
+			productReference = 16735EF12123D578001ECB53 /* LIFELogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16735EC62123D576001ECB53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XLL;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "夏江福";
+				TargetAttributes = {
+					16735ECD2123D576001ECB53 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					16735EE52123D578001ECB53 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 16735ECD2123D576001ECB53;
+					};
+					16735EF02123D578001ECB53 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 16735ECD2123D576001ECB53;
+					};
+				};
+			};
+			buildConfigurationList = 16735EC92123D576001ECB53 /* Build configuration list for PBXProject "LIFELog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16735EC52123D576001ECB53;
+			productRefGroup = 16735ECF2123D576001ECB53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16735ECD2123D576001ECB53 /* LIFELog */,
+				16735EE52123D578001ECB53 /* LIFELogTests */,
+				16735EF02123D578001ECB53 /* LIFELogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16735ECC2123D576001ECB53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164574092126C7D700601814 /* XLLPlayRecordingView.xib in Resources */,
+				1673601B21250223001ECB53 /* timg-20.jpeg in Resources */,
+				16735EDE2123D578001ECB53 /* LaunchScreen.storyboard in Resources */,
+				1673600D21250223001ECB53 /* timg-0.jpeg in Resources */,
+				1673600E21250223001ECB53 /* timg-15.jpeg in Resources */,
+				1673601221250223001ECB53 /* timg-13.jpeg in Resources */,
+				1673601621250223001ECB53 /* timg-11.jpeg in Resources */,
+				1673602621250775001ECB53 /* XLLVoiceCollectionViewXib.xib in Resources */,
+				16735EDB2123D578001ECB53 /* Assets.xcassets in Resources */,
+				1673601A21250223001ECB53 /* timg-16.jpeg in Resources */,
+				1673600921250223001ECB53 /* timg-1.jpeg in Resources */,
+				1673601321250223001ECB53 /* timg-9.jpeg in Resources */,
+				1673601D21250223001ECB53 /* timg-17.jpeg in Resources */,
+				1673601821250223001ECB53 /* timg-8.jpeg in Resources */,
+				16735F192123F512001ECB53 /* XLLHomeItemViewXib.xib in Resources */,
+				1673600821250223001ECB53 /* timg-14.jpeg in Resources */,
+				1673601421250223001ECB53 /* timg-5.jpeg in Resources */,
+				1673603D21256FF6001ECB53 /* XLLEntryRecorDingInfoViewXib.xib in Resources */,
+				16735F2C2124191A001ECB53 /* HomeCellModel.plist in Resources */,
+				1673600C21250223001ECB53 /* timg-19.jpeg in Resources */,
+				1673601E21250223001ECB53 /* timg-2.jpeg in Resources */,
+				1673601721250223001ECB53 /* timg-4.jpeg in Resources */,
+				1673600F21250223001ECB53 /* timg-12.jpeg in Resources */,
+				164574012126AA8600601814 /* XLLVoiceViewCell.xib in Resources */,
+				1673601C21250223001ECB53 /* timg-21.jpeg in Resources */,
+				1673601921250223001ECB53 /* timg-3.jpeg in Resources */,
+				1673600A21250223001ECB53 /* timg-22.jpeg in Resources */,
+				1673600B21250223001ECB53 /* timg-18.jpeg in Resources */,
+				1673601521250223001ECB53 /* timg-10.jpeg in Resources */,
+				1673601021250223001ECB53 /* timg-7.jpeg in Resources */,
+				1673601121250223001ECB53 /* timg-6.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16735EE42123D578001ECB53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16735EEF2123D578001ECB53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		897004A1781B0BFA9DF80A8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LIFELog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98FF99EEBF8CB8BCA7006297 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LIFELog/Pods-LIFELog-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIFELog/Pods-LIFELog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95EA165A2C25765B9283CCB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LIFELog/Pods-LIFELog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16735ECA2123D576001ECB53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167360382125694A001ECB53 /* XLLVoiceViewModel.m in Sources */,
+				16735EE12123D578001ECB53 /* main.m in Sources */,
+				16735F5E2124237C001ECB53 /* XLLHomeCellModel.m in Sources */,
+				162F68E42127E76700C0713F /* XLLAVAudioPlayer.m in Sources */,
+				16735F6221242488001ECB53 /* XLLHomeViewModel.m in Sources */,
+				16736040212576DA001ECB53 /* XLLBaseVM.m in Sources */,
+				1673602121250722001ECB53 /* XLLVoiceVC.m in Sources */,
+				1673603B21256FD1001ECB53 /* XLLEntryRecorDingInfoViewXib.m in Sources */,
+				16735F072123DA62001ECB53 /* XLLAppDelegate.m in Sources */,
+				16735F102123DCB9001ECB53 /* XLLBaseNC.m in Sources */,
+				164574072126C7C600601814 /* XLLPlayRecordingView.m in Sources */,
+				1673603421255492001ECB53 /* XLLFilePathManage.m in Sources */,
+				167360312125539F001ECB53 /* XLLManageCenter.m in Sources */,
+				16735F172123F4FE001ECB53 /* XLLHomeItemViewXib.m in Sources */,
+				164574002126AA8600601814 /* XLLVoiceViewCell.m in Sources */,
+				16736046212586AA001ECB53 /* XLLBaseView.m in Sources */,
+				162F68E72127E81E00C0713F /* XLLPlayerRecordingViewModel.m in Sources */,
+				16735F2921240DF1001ECB53 /* XLLHomeItemCell.m in Sources */,
+				16735F1D2123FE1D001ECB53 /* XLLHomeItemModel.m in Sources */,
+				16735F132123DCF4001ECB53 /* XLLBaseVC.m in Sources */,
+				164573FC2126615700601814 /* XLLRecordingModel.m in Sources */,
+				1673602421250763001ECB53 /* XLLVoiceCollectionViewXib.m in Sources */,
+				164574042126C69A00601814 /* XLLPlayRecordingVC.m in Sources */,
+				16735F0C2123DB09001ECB53 /* XLLHomeVC.m in Sources */,
+				1673602A21254E87001ECB53 /* XLLRecording.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16735EE22123D578001ECB53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16735EEB2123D578001ECB53 /* LIFELogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16735EED2123D578001ECB53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16735EF62123D578001ECB53 /* LIFELogUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16735EE82123D578001ECB53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16735ECD2123D576001ECB53 /* LIFELog */;
+			targetProxy = 16735EE72123D578001ECB53 /* PBXContainerItemProxy */;
+		};
+		16735EF32123D578001ECB53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16735ECD2123D576001ECB53 /* LIFELog */;
+			targetProxy = 16735EF22123D578001ECB53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16735EDC2123D578001ECB53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16735EDD2123D578001ECB53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16735EF82123D578001ECB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16735EF92123D578001ECB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16735EFB2123D578001ECB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D2D6BFBBF6CA2D99D3744E5 /* Pods-LIFELog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHG36AHL48;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LIFELog/Utils/Config/XLL_PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/LIFELog/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xia.app.lifelog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16735EFC2123D578001ECB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAFD20FEAD84567AE57FFACE /* Pods-LIFELog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHG36AHL48;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LIFELog/Utils/Config/XLL_PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/LIFELog/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xia.app.lifelog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16735EFE2123D578001ECB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LIFELogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xia.app.lifelog.LIFELogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIFELog.app/LIFELog";
+			};
+			name = Debug;
+		};
+		16735EFF2123D578001ECB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LIFELogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xia.app.lifelog.LIFELogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LIFELog.app/LIFELog";
+			};
+			name = Release;
+		};
+		16735F012123D578001ECB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LIFELogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xia.app.lifelog.LIFELogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LIFELog;
+			};
+			name = Debug;
+		};
+		16735F022123D578001ECB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LIFELogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xia.app.lifelog.LIFELogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LIFELog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16735EC92123D576001ECB53 /* Build configuration list for PBXProject "LIFELog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16735EF82123D578001ECB53 /* Debug */,
+				16735EF92123D578001ECB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16735EFA2123D578001ECB53 /* Build configuration list for PBXNativeTarget "LIFELog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16735EFB2123D578001ECB53 /* Debug */,
+				16735EFC2123D578001ECB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16735EFD2123D578001ECB53 /* Build configuration list for PBXNativeTarget "LIFELogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16735EFE2123D578001ECB53 /* Debug */,
+				16735EFF2123D578001ECB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16735F002123D578001ECB53 /* Build configuration list for PBXNativeTarget "LIFELogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16735F012123D578001ECB53 /* Debug */,
+				16735F022123D578001ECB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16735EC62123D576001ECB53 /* Project object */;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>itemType</key>
+		<string>0</string>
+		<key>itemName</key>
+		<string>语音日志</string>
+		<key>itemDescription</key>
+		<string>让我们荡起双桨-小船儿推开波浪</string>
+		<key>itemBackgroundImageName</key>
+		<string>timg-0</string>
+	</dict>
+	<dict>
+		<key>itemType</key>
+		<string>1</string>
+		<key>itemName</key>
+		<string>视频日志</string>
+		<key>itemDescription</key>
+		<string>让青春吹动了你的长发-让它牵引你的梦</string>
+		<key>itemBackgroundImageName</key>
+		<string>timg-1</string>
+	</dict>
+	<dict>
+		<key>itemType</key>
+		<string>2</string>
+		<key>itemName</key>
+		<string>扫一扫</string>
+		<key>itemDescription</key>
+		<string>轻轻敲醒沉睡的心灵-慢慢张开你的眼睛</string>
+		<key>itemBackgroundImageName</key>
+		<string>timg-2</string>
+	</dict>
+	<dict>
+		<key>itemType</key>
+		<string>3</string>
+		<key>itemName</key>
+		<string>二维码生成</string>
+		<key>itemDescription</key>
+		<string>离开已经三年后-你煞有去无回头</string>
+		<key>itemBackgroundImageName</key>
+		<string>timg-3</string>
+	</dict>
+	<dict>
+		<key>itemType</key>
+		<string>4</string>
+		<key>itemName</key>
+		<string>进入选择</string>
+		<key>itemDescription</key>
+		<string>当文人成为剑客-你呢</string>
+		<key>itemBackgroundImageName</key>
+		<string>timg-4</string>
+	</dict>
+</array>
+</plist>

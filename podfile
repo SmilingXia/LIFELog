@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+target 'LIFELog' do
+use_frameworks!
+end
+
+pod 'MJExtension', '~> 3.0'
+pod 'SDWebImage', '~> 4.3'
+pod 'AFNetworking', '~> 3.2'
+pod 'Masonry', '~> 1.1'
+pod 'Reachability', '~> 3.2'
+pod 'Weixin', '~> 1.6.2'
